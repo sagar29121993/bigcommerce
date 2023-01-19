@@ -1,0 +1,52 @@
+#example td:first-child::before{
+	background-color: #006064;
+}
+#example tbody td {
+	font-size: 14px;
+}
+
+#example thead tr th {
+	font-size: 14px;
+	color: #2d4d2d;
+}
+
+#example tbody td {
+	padding-top: 2px;
+	padding-bottom: 2px;
+	color: #040011;
+}
+#example thead th {
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+#example tbody tr.odd:hover td, #example tbody tr.even:hover td,#example tbody tr.odd:hover td a,#example tbody tr.even:hover td a {
+	color: #fff;
+	background-color: #006064;
+}
+#example tbody tr td a{
+	color: #006064;
+}
+caption {
+    padding: 0px;
+	color: #fff;
+}
+#example tbody td	{
+	word-wrap: break-word; word-break: break-all; white-space: normal;
+	font-size: 12px;
+}
+
+.buttons-excel{
+	margin-left: 10px;
+	margin-right: 20px;
+}
+
+.dataTables_info, #example_filter label{
+	color: #fff;
+}
+#dataTableDiv{
+	margin-top: -10px;
+	font-size: 15px;
+}
+.dataTable{
+	font-size: 13px;
+}

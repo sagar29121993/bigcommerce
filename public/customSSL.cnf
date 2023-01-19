@@ -1,0 +1,23 @@
+[ req ]
+default_bits = 2048
+distinguished_name = req_dist_name
+req_extensions = req_ext
+prompt = no
+default_md = sha256
+
+[req_dist_name]
+ C = IN
+ ST = Telangana
+ L = Sangareddy
+ O = Andhra Pradesh Grameena Vikas Bank
+ CN = 183.82.116.194
+ OU = Support
+ emailAddress = cmit@apgvbank.in
+
+[req_ext]
+subjectAltName = @alt_names 
+
+[alt_names]
+ DNS.1 = 202.53.9.2
+ DNS.2 = 202.53.9.3
+
